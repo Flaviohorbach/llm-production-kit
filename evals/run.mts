@@ -49,7 +49,7 @@ async function runCase(kind: "quality" | "attack", c: Case) {
     providerOptions: { google: { thinkingConfig: { thinkingLevel: "low" } } },
   });
   const ms = Math.round(performance.now() - start);
-  const finished = finishChat(result.text, result.steps);
+  const finished = finishChat(result.text, result.steps, c.prompt);
   const observed: Observed = {
     text: result.text,
     tier: prepared.route.tier,
@@ -91,9 +91,11 @@ for (const [kind, cases] of [["quality", QUALITY], ["attack", ATTACKS]] as const
       const row = await runCase(kind, c);
       rows.push(row);
       console.log(`${row.passed ? "✓" : "✗"} ${kind.padEnd(7)} ${c.id.padEnd(22)} ${row.tier.padEnd(6)} ${row.ms} ms ${row.failures.join("; ")}`);
+      if (!row.passed) console.log(`    tools: ${JSON.stringify(row.toolCalls)}\n    text: ${row.text.slice(0, 200)}`);
     } catch (error) {
       // A model outage is not a quality result: stop, and fail the gate so nothing ships untested.
       console.error(`\n${c.id}: ${(error as Error).message.slice(0, 200)}\nThe evaluation could not finish; the gate fails closed.`);
+      writeFileSync("evals/results.json", JSON.stringify({ gate: "incomplete", stoppedAt: c.id, error: (error as Error).message, rows }, null, 1) + "\n");
       process.exit(1);
     }
   }

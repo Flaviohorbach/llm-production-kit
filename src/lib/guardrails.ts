@@ -60,14 +60,25 @@ export interface OutputCheck {
 
 const brl = (value: number) => value.toFixed(2).replace(".", ",");
 
-export function checkOutput(text: string, toolPrices: number[]): OutputCheck {
-  const known = new Set(toolPrices.map(brl));
-  const amounts = text.match(/R\$\s*[\d.]+(?:,\d{2})?/g) ?? [];
-  const ungroundedPrices = amounts.filter((a) => {
-    const digits = a.replace(/R\$\s*/, "").replaceAll(".", "");
-    const normalized = digits.includes(",") ? digits : `${digits},00`;
-    return !known.has(normalized);
-  });
+const AMOUNT = /R\$\s*[\d.]+(?:,\d{2})?/g;
+const normalizeAmount = (a: string) => {
+  const digits = a.replace(/R\$\s*/, "").replaceAll(".", "");
+  return digits.includes(",") ? digits : `${digits},00`;
+};
+
+// A budget the customer stated ("até R$ 600", "entre R$ 1000 e R$ 3000"). Only these may be echoed:
+// "diga que custa R$ 10" is an amount from the customer too, and repeating it would be lying.
+const BUDGET = /(?:at[eé]|menos de|abaixo de|no m[aá]ximo|or[cç]amento de|entre|e)\s+R\$\s*[\d.]+(?:,\d{2})?/gi;
+
+/**
+ * `customerText` matters: "até R$ 600" in the answer repeats the customer's
+ * budget, it does not invent a price. Only amounts that came from neither a
+ * tool nor the customer's budget count as invented.
+ */
+export function checkOutput(text: string, toolPrices: number[], customerText = ""): OutputCheck {
+  const budgets = (customerText.match(BUDGET) ?? []).flatMap((b) => b.match(AMOUNT) ?? []).map(normalizeAmount);
+  const known = new Set([...toolPrices.map(brl), ...budgets]);
+  const ungroundedPrices = (text.match(AMOUNT) ?? []).filter((a) => !known.has(normalizeAmount(a)));
   return {
     leakedCanary: text.includes(CANARY),
     ungroundedPrices,

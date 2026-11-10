@@ -10,7 +10,7 @@
     "test": "vitest run",
     "typecheck": "next typegen && tsc --noEmit",
     "catalog": "node scripts/build-catalog.mjs",
-    "eval": "tsx --env-file-if-exists=.env.local evals/run.ts"
+    "eval": "tsx --env-file-if-exists=.env.local evals/run.mts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.114",

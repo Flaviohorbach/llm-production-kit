@@ -1,12 +1,21 @@
-name: CI
+name: Quality gate
 
+# Every push to main goes through three stages, each only if the one before passed:
+#   checks → evals against the real models → deploy to Vercel.
+# Vercel's own Git deploys are off (vercel.json), so nothing reaches production
+# without passing the evals. Pull requests run the offline checks only.
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: quality-gate-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  test:
+  checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,6 +26,48 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
-      # Offline tests: the model fallback is tested with fake models, no API key needed.
+      # Offline: router, guardrails, pricing and the model fallback, with fake models.
       - run: npm test
       - run: npm run build
+
+  evals:
+    needs: checks
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # About 50 model calls on the free tier. Fails closed: if the models are
+      # down or out of quota, the run fails and nothing is deployed.
+      - run: npm run eval
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: evals/results.json
+
+  deploy:
+    needs: evals
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm install --global vercel@latest
+      - run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      - run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - id: deploy
+        run: echo "url=$(vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }})" >> "$GITHUB_OUTPUT"

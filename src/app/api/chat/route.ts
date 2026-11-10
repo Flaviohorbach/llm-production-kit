@@ -55,7 +55,7 @@ async function handler(request: Request) {
       providerOptions: { google: { thinkingConfig: { thinkingLevel: "low" } } },
       telemetry: { functionId: "shop-chat" },
       onFinish: async ({ text, steps }) => {
-        const finished = finishChat(text, steps);
+        const finished = finishChat(text, steps, prepared.lastUserText);
         if (!tracingEnabled) return;
         updateActiveObservation({ output: text, metadata: { ...finished, tier: route.tier } });
         // Scores make guardrail failures searchable and chartable in Langfuse.

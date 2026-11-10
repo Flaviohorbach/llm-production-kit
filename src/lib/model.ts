@@ -8,10 +8,12 @@ import { APICallError, wrapLanguageModel, type LanguageModel, type LanguageModel
  * - fast: cheap models, for most messages. gemini-3.1-flash-lite held up best
  *   in the product-lab benchmark (module 2).
  * - strong: for comparisons and long or complex requests.
+ * Each tier ends with a model from the other one: when a whole tier is down,
+ * a worse or pricier answer beats no answer.
  */
 export const MODEL_TIERS = {
-  fast: ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite"],
-  strong: ["gemini-3.8-flash", "gemini-3.6-flash"],
+  fast: ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-3.6-flash"],
+  strong: ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.1-flash-lite"],
 } as const;
 export type Tier = keyof typeof MODEL_TIERS;
 

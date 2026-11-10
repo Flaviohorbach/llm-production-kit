@@ -13,6 +13,7 @@ export const CHAT_SETTINGS = { system: SYSTEM_PROMPT, tools, stopWhen: stepCount
 
 export interface Prepared {
   messages: ShopUIMessage[];
+  lastUserText: string;
   route: Route;
   injectionSuspected: boolean;
   maskedData: string[];
@@ -43,6 +44,7 @@ export function prepareChat(all: ShopUIMessage[]): Prepared {
   const lastUserText = users.length ? textOf(users[users.length - 1]!) : "";
   return {
     messages,
+    lastUserText,
     route: routeRequest(lastUserText, all.filter((m) => m.role === "user").length),
     injectionSuspected: looksLikeInjection(lastUserText),
     maskedData,
@@ -76,7 +78,7 @@ function toolPrices(steps: StepResult<ToolSet>[]): number[] {
 }
 
 /** Everything after the model: output checks and cost, per step, by the model that really answered. */
-export function finishChat(text: string, steps: StepResult<ToolSet>[]): Finished {
+export function finishChat(text: string, steps: StepResult<ToolSet>[], customerText = ""): Finished {
   let cost: number | null = 0;
   let inputTokens = 0;
   let outputTokens = 0;
@@ -87,7 +89,7 @@ export function finishChat(text: string, steps: StepResult<ToolSet>[]): Finished
     cost = c === null || cost === null ? null : cost + c;
   }
   return {
-    check: checkOutput(text, toolPrices(steps)),
+    check: checkOutput(text, toolPrices(steps), customerText),
     costUSD: cost,
     inputTokens,
     outputTokens,
