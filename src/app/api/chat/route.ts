@@ -53,7 +53,9 @@ async function handler(request: Request) {
       ...CHAT_SETTINGS,
       messages: await convertToModelMessages(prepared.messages),
       providerOptions: { google: { thinkingConfig: { thinkingLevel: "low" } } },
-      telemetry: { functionId: "shop-chat" },
+      // The model's inputs include the system prompt and its canary, and traces are
+      // public. The customer's masked message is recorded on the root observation instead.
+      telemetry: { functionId: "shop-chat", recordInputs: false },
       onFinish: async ({ text, steps }) => {
         const finished = finishChat(text, steps, prepared.lastUserText);
         if (!tracingEnabled) return;
