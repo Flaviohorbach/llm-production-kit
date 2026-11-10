@@ -34,6 +34,10 @@ Tracing was meant to be optional, but only missing keys turned it off. On Vercel
 
 The first live answer showed the products but never its closing text or cost. Its trace showed why: the first model call waited 17 s for a slow model, and Vercel's 30 s function limit killed the request during the second step, before the root of the trace could even close. The evaluation runs on CI, outside Vercel's time limit, so it could not catch this. **Caught by:** testing the live site and reading the trace. **Fix:** a 60 s limit, which fits two slow steps.
 
+### 9. A gate that competes with its own users for quota
+
+The evaluation and the live site share one free Gemini key. After three full evaluations and local testing in one day, both strong models ran out of daily quota, the fast model was overloaded, and the fourth run stopped at its ninth case. The gate failed closed and blocked the deploy, as designed, but the same exhausted quota also hit visitors asking for comparisons. **Caught by:** the CI log. **Fix:** none in code; the run is repeated after the quota resets. In production, evaluations would use a separate key with its own quota, and adding more fallback models was rejected: each slow model costs 15 s, and three or four in a row would break the 60 s limit.
+
 ## What needed a human
 
 - Choosing a new repository and Langfuse.
