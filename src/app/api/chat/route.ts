@@ -21,7 +21,9 @@ const traceUrl = (traceId: string | undefined) =>
     ? `${process.env.LANGFUSE_BASE_URL ?? "https://cloud.langfuse.com"}/project/${process.env.LANGFUSE_PROJECT_ID}/traces/${traceId}`
     : null;
 
-export const maxDuration = 30;
+// Two steps (search, then answer), each of which may wait 15 s for a slow model before
+// falling back. 30 s cut answers off mid-way in production; 60 s fits two slow steps.
+export const maxDuration = 60;
 
 async function handler(request: Request) {
   const client = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";

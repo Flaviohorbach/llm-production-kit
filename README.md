@@ -68,6 +68,7 @@ flowchart LR
 
 ## Limits
 
+- **The evaluation does not run inside Vercel.** It calls the models directly, so it cannot catch platform limits: the first live answer was cut off by the function time limit (see the [AI log](docs/AI-LOG.md)).
 - **Evals spend free quota.** About 50 model calls per push; a busy day can exhaust it and block deploys until the next.
 - **Rate limits are in memory**, per server instance.
 - **Traces are public.** Masking covers the common Brazilian formats, not every way of writing personal data.

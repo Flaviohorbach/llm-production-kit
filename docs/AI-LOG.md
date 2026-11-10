@@ -30,6 +30,10 @@ The project inherited no `"type": "module"`, and the eval script used top-level 
 
 Tracing was meant to be optional, but only missing keys turned it off. On Vercel, the Langfuse URL had been pasted with its quotes, the span processor threw on the invalid URL while Next.js collected the route's configuration, and the whole build failed. **Caught by:** the first deploy from CI. **Fix:** invalid keys or URL turn tracing off with a warning; the store keeps working untraced.
 
+### 8. Answers cut off in production, invisible to the evaluation
+
+The first live answer showed the products but never its closing text or cost. Its trace showed why: the first model call waited 17 s for a slow model, and Vercel's 30 s function limit killed the request during the second step, before the root of the trace could even close. The evaluation runs on CI, outside Vercel's time limit, so it could not catch this. **Caught by:** testing the live site and reading the trace. **Fix:** a 60 s limit, which fits two slow steps.
+
 ## What needed a human
 
 - Choosing a new repository and Langfuse.
