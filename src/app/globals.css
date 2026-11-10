@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Store palette: cool paper background, ink text, a deep pine accent for actions,
+   a warm amber for prices and ratings. Every color is a token, redefined for dark mode. */
+:root {
+  --bg: #f2f4f1;
+  --surface: #ffffff;
+  --surface-2: #e8ece7;
+  --ink: #1a201d;
+  --muted: #5c6862;
+  --line: #d6ddd7;
+  --accent: #1f5f4a;
+  --accent-ink: #ffffff;
+  --accent-soft: #dcebe4;
+  --price: #8a4b08;
+  --danger: #a3302a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111513;
+    --surface: #1a201d;
+    --surface-2: #232a26;
+    --ink: #e6ece8;
+    --muted: #98a59e;
+    --line: #2e3732;
+    --accent: #7fc8a9;
+    --accent-ink: #0d1411;
+    --accent-soft: #1f3a2f;
+    --price: #f2b866;
+    --danger: #f08a82;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-price: var(--price);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

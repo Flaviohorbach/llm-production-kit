@@ -1,0 +1,2513 @@
+[
+  {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "brand": "Essence",
+    "category": "beauty",
+    "categoryLabel": "Beleza",
+    "priceBRL": 54.9,
+    "rating": 2.56,
+    "stock": 99,
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "tags": [
+      "beauty",
+      "mascara"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
+  },
+  {
+    "id": 2,
+    "title": "Eyeshadow Palette with Mirror",
+    "brand": "Glamour Beauty",
+    "category": "beauty",
+    "categoryLabel": "Beleza",
+    "priceBRL": 109.9,
+    "rating": 2.86,
+    "stock": 34,
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "tags": [
+      "beauty",
+      "eyeshadow"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"
+  },
+  {
+    "id": 3,
+    "title": "Powder Canister",
+    "brand": "Velvet Touch",
+    "category": "beauty",
+    "categoryLabel": "Beleza",
+    "priceBRL": 81.9,
+    "rating": 4.64,
+    "stock": 89,
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "tags": [
+      "beauty",
+      "face powder"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
+  },
+  {
+    "id": 4,
+    "title": "Red Lipstick",
+    "brand": "Chic Cosmetics",
+    "category": "beauty",
+    "categoryLabel": "Beleza",
+    "priceBRL": 70.9,
+    "rating": 4.36,
+    "stock": 91,
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "tags": [
+      "beauty",
+      "lipstick"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"
+  },
+  {
+    "id": 5,
+    "title": "Red Nail Polish",
+    "brand": "Nail Couture",
+    "category": "beauty",
+    "categoryLabel": "Beleza",
+    "priceBRL": 48.9,
+    "rating": 4.32,
+    "stock": 79,
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "tags": [
+      "beauty",
+      "nail polish"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"
+  },
+  {
+    "id": 6,
+    "title": "Calvin Klein CK One",
+    "brand": "Calvin Klein",
+    "category": "fragrances",
+    "categoryLabel": "Perfumes",
+    "priceBRL": 274.9,
+    "rating": 4.37,
+    "stock": 29,
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp"
+  },
+  {
+    "id": 7,
+    "title": "Chanel Coco Noir Eau De",
+    "brand": "Chanel",
+    "category": "fragrances",
+    "categoryLabel": "Perfumes",
+    "priceBRL": 714.9,
+    "rating": 4.26,
+    "stock": 58,
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+  },
+  {
+    "id": 8,
+    "title": "Dior J'adore",
+    "brand": "Dior",
+    "category": "fragrances",
+    "categoryLabel": "Perfumes",
+    "priceBRL": 494.9,
+    "rating": 3.8,
+    "stock": 98,
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp"
+  },
+  {
+    "id": 9,
+    "title": "Dolce Shine Eau de",
+    "brand": "Dolce & Gabbana",
+    "category": "fragrances",
+    "categoryLabel": "Perfumes",
+    "priceBRL": 384.9,
+    "rating": 3.96,
+    "stock": 4,
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"
+  },
+  {
+    "id": 10,
+    "title": "Gucci Bloom Eau de",
+    "brand": "Gucci",
+    "category": "fragrances",
+    "categoryLabel": "Perfumes",
+    "priceBRL": 439.9,
+    "rating": 2.74,
+    "stock": 91,
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"
+  },
+  {
+    "id": 11,
+    "title": "Annibale Colombo Bed",
+    "brand": "Annibale Colombo",
+    "category": "furniture",
+    "categoryLabel": "Móveis",
+    "priceBRL": 10449.9,
+    "rating": 4.77,
+    "stock": 88,
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "tags": [
+      "furniture",
+      "beds"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"
+  },
+  {
+    "id": 12,
+    "title": "Annibale Colombo Sofa",
+    "brand": "Annibale Colombo",
+    "category": "furniture",
+    "categoryLabel": "Móveis",
+    "priceBRL": 13749.9,
+    "rating": 3.92,
+    "stock": 60,
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "tags": [
+      "furniture",
+      "sofas"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"
+  },
+  {
+    "id": 13,
+    "title": "Bedside Table African Cherry",
+    "brand": "Furniture Co.",
+    "category": "furniture",
+    "categoryLabel": "Móveis",
+    "priceBRL": 1649.9,
+    "rating": 2.87,
+    "stock": 64,
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "tags": [
+      "furniture",
+      "bedside tables"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"
+  },
+  {
+    "id": 14,
+    "title": "Knoll Saarinen Executive Conference Chair",
+    "brand": "Knoll",
+    "category": "furniture",
+    "categoryLabel": "Móveis",
+    "priceBRL": 2749.9,
+    "rating": 4.88,
+    "stock": 26,
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "tags": [
+      "furniture",
+      "office chairs"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"
+  },
+  {
+    "id": 15,
+    "title": "Wooden Bathroom Sink With Mirror",
+    "brand": "Bath Trends",
+    "category": "furniture",
+    "categoryLabel": "Móveis",
+    "priceBRL": 4399.9,
+    "rating": 3.59,
+    "stock": 7,
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "tags": [
+      "furniture",
+      "bathroom"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"
+  },
+  {
+    "id": 43,
+    "title": "Decoration Swing",
+    "brand": null,
+    "category": "home-decoration",
+    "categoryLabel": "Decoração",
+    "priceBRL": 329.9,
+    "rating": 3.16,
+    "stock": 47,
+    "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+    "tags": [
+      "home decor",
+      "swing"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp"
+  },
+  {
+    "id": 44,
+    "title": "Family Tree Photo Frame",
+    "brand": null,
+    "category": "home-decoration",
+    "categoryLabel": "Decoração",
+    "priceBRL": 164.9,
+    "rating": 4.53,
+    "stock": 77,
+    "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+    "tags": [
+      "home decor",
+      "photo frame"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp"
+  },
+  {
+    "id": 45,
+    "title": "House Showpiece Plant",
+    "brand": null,
+    "category": "home-decoration",
+    "categoryLabel": "Decoração",
+    "priceBRL": 219.9,
+    "rating": 4.67,
+    "stock": 28,
+    "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+    "tags": [
+      "home decor",
+      "artificial plants"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp"
+  },
+  {
+    "id": 46,
+    "title": "Plant Pot",
+    "brand": null,
+    "category": "home-decoration",
+    "categoryLabel": "Decoração",
+    "priceBRL": 81.9,
+    "rating": 3.01,
+    "stock": 59,
+    "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+    "tags": [
+      "home decor",
+      "plant accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp"
+  },
+  {
+    "id": 47,
+    "title": "Table Lamp",
+    "brand": null,
+    "category": "home-decoration",
+    "categoryLabel": "Decoração",
+    "priceBRL": 274.9,
+    "rating": 3.55,
+    "stock": 9,
+    "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+    "tags": [
+      "home decor",
+      "lighting"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp"
+  },
+  {
+    "id": 48,
+    "title": "Bamboo Spatula",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 43.9,
+    "rating": 3.27,
+    "stock": 37,
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/thumbnail.webp"
+  },
+  {
+    "id": 49,
+    "title": "Black Aluminium Cup",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 32.9,
+    "rating": 4.46,
+    "stock": 75,
+    "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+    "tags": [
+      "drinkware",
+      "cups"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/thumbnail.webp"
+  },
+  {
+    "id": 50,
+    "title": "Black Whisk",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 54.9,
+    "rating": 3.9,
+    "stock": 73,
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp"
+  },
+  {
+    "id": 51,
+    "title": "Boxed Blender",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 219.9,
+    "rating": 4.56,
+    "stock": 9,
+    "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/thumbnail.webp"
+  },
+  {
+    "id": 52,
+    "title": "Carbon Steel Wok",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 164.9,
+    "rating": 4.05,
+    "stock": 40,
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "tags": [
+      "cookware",
+      "woks"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp"
+  },
+  {
+    "id": 53,
+    "title": "Chopping Board",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 70.9,
+    "rating": 3.7,
+    "stock": 14,
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "tags": [
+      "kitchen tools",
+      "cutting boards"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp"
+  },
+  {
+    "id": 54,
+    "title": "Citrus Squeezer Yellow",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 48.9,
+    "rating": 4.63,
+    "stock": 22,
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "tags": [
+      "kitchen tools",
+      "juicers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/thumbnail.webp"
+  },
+  {
+    "id": 55,
+    "title": "Egg Slicer",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 37.9,
+    "rating": 3.09,
+    "stock": 40,
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "tags": [
+      "kitchen tools",
+      "slicers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/thumbnail.webp"
+  },
+  {
+    "id": 56,
+    "title": "Electric Stove",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 274.9,
+    "rating": 4.11,
+    "stock": 21,
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "tags": [
+      "kitchen appliances",
+      "cooktops"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/thumbnail.webp"
+  },
+  {
+    "id": 57,
+    "title": "Fine Mesh Strainer",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 54.9,
+    "rating": 3.04,
+    "stock": 85,
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp"
+  },
+  {
+    "id": 58,
+    "title": "Fork",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 21.9,
+    "rating": 3.11,
+    "stock": 7,
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp"
+  },
+  {
+    "id": 59,
+    "title": "Glass",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 26.9,
+    "rating": 4.02,
+    "stock": 46,
+    "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+    "tags": [
+      "drinkware",
+      "glasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/thumbnail.webp"
+  },
+  {
+    "id": 60,
+    "title": "Grater Black",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 59.9,
+    "rating": 3.21,
+    "stock": 84,
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "tags": [
+      "kitchen tools",
+      "graters"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp"
+  },
+  {
+    "id": 61,
+    "title": "Hand Blender",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 191.9,
+    "rating": 3.86,
+    "stock": 84,
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/thumbnail.webp"
+  },
+  {
+    "id": 62,
+    "title": "Ice Cube Tray",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 32.9,
+    "rating": 4.71,
+    "stock": 13,
+    "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+    "tags": [
+      "kitchen tools",
+      "ice cube trays"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp"
+  },
+  {
+    "id": 63,
+    "title": "Kitchen Sieve",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 43.9,
+    "rating": 3.09,
+    "stock": 68,
+    "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/thumbnail.webp"
+  },
+  {
+    "id": 64,
+    "title": "Knife",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 81.9,
+    "rating": 3.26,
+    "stock": 7,
+    "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+    "tags": [
+      "kitchen tools",
+      "cutlery"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/thumbnail.webp"
+  },
+  {
+    "id": 65,
+    "title": "Lunch Box",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 70.9,
+    "rating": 4.93,
+    "stock": 94,
+    "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+    "tags": [
+      "kitchen tools",
+      "storage"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/thumbnail.webp"
+  },
+  {
+    "id": 66,
+    "title": "Microwave Oven",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 494.9,
+    "rating": 4.82,
+    "stock": 59,
+    "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+    "tags": [
+      "kitchen appliances",
+      "microwaves"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/thumbnail.webp"
+  },
+  {
+    "id": 67,
+    "title": "Mug Tree Stand",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 87.9,
+    "rating": 2.64,
+    "stock": 88,
+    "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/thumbnail.webp"
+  },
+  {
+    "id": 68,
+    "title": "Pan",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 136.9,
+    "rating": 2.79,
+    "stock": 90,
+    "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+    "tags": [
+      "cookware",
+      "pans"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp"
+  },
+  {
+    "id": 69,
+    "title": "Plate",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 21.9,
+    "rating": 3.65,
+    "stock": 66,
+    "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+    "tags": [
+      "dinnerware",
+      "plates"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp"
+  },
+  {
+    "id": 70,
+    "title": "Red Tongs",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 37.9,
+    "rating": 4.42,
+    "stock": 82,
+    "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+    "tags": [
+      "kitchen tools",
+      "tongs"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/thumbnail.webp"
+  },
+  {
+    "id": 71,
+    "title": "Silver Pot With Glass Cap",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 219.9,
+    "rating": 3.22,
+    "stock": 40,
+    "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+    "tags": [
+      "cookware",
+      "pots"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/thumbnail.webp"
+  },
+  {
+    "id": 72,
+    "title": "Slotted Turner",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 48.9,
+    "rating": 3.4,
+    "stock": 88,
+    "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+    "tags": [
+      "kitchen tools",
+      "turners"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/thumbnail.webp"
+  },
+  {
+    "id": 73,
+    "title": "Spice Rack",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 109.9,
+    "rating": 4.87,
+    "stock": 79,
+    "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/thumbnail.webp"
+  },
+  {
+    "id": 74,
+    "title": "Spoon",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 26.9,
+    "rating": 4.03,
+    "stock": 59,
+    "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp"
+  },
+  {
+    "id": 75,
+    "title": "Tray",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 92.9,
+    "rating": 4.62,
+    "stock": 71,
+    "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+    "tags": [
+      "serveware",
+      "trays"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/thumbnail.webp"
+  },
+  {
+    "id": 76,
+    "title": "Wooden Rolling Pin",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 65.9,
+    "rating": 2.92,
+    "stock": 80,
+    "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+    "tags": [
+      "kitchen tools",
+      "baking"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/thumbnail.webp"
+  },
+  {
+    "id": 77,
+    "title": "Yellow Peeler",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "categoryLabel": "Cozinha",
+    "priceBRL": 32.9,
+    "rating": 4.24,
+    "stock": 35,
+    "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+    "tags": [
+      "kitchen tools",
+      "peelers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/thumbnail.webp"
+  },
+  {
+    "id": 78,
+    "title": "Apple MacBook Pro 14 Inch Space Grey",
+    "brand": "Apple",
+    "category": "laptops",
+    "categoryLabel": "Notebooks",
+    "priceBRL": 10999.9,
+    "rating": 3.65,
+    "stock": 24,
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "tags": [
+      "laptops",
+      "apple"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
+  },
+  {
+    "id": 79,
+    "title": "Asus Zenbook Pro Dual Screen Laptop",
+    "brand": "Asus",
+    "category": "laptops",
+    "categoryLabel": "Notebooks",
+    "priceBRL": 9899.9,
+    "rating": 3.95,
+    "stock": 45,
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "tags": [
+      "laptops"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
+  },
+  {
+    "id": 80,
+    "title": "Huawei Matebook X Pro",
+    "brand": "Huawei",
+    "category": "laptops",
+    "categoryLabel": "Notebooks",
+    "priceBRL": 7699.9,
+    "rating": 4.98,
+    "stock": 75,
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "tags": [
+      "laptops"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
+  },
+  {
+    "id": 81,
+    "title": "Lenovo Yoga 920",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "categoryLabel": "Notebooks",
+    "priceBRL": 6049.9,
+    "rating": 2.86,
+    "stock": 40,
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "tags": [
+      "laptops"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
+  },
+  {
+    "id": 82,
+    "title": "New DELL XPS 13 9300 Laptop",
+    "brand": "Dell",
+    "category": "laptops",
+    "categoryLabel": "Notebooks",
+    "priceBRL": 8249.9,
+    "rating": 2.67,
+    "stock": 74,
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "tags": [
+      "laptops"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
+  },
+  {
+    "id": 83,
+    "title": "Blue & Black Check Shirt",
+    "brand": "Fashion Trends",
+    "category": "mens-shirts",
+    "categoryLabel": "Camisas masculinas",
+    "priceBRL": 164.9,
+    "rating": 3.64,
+    "stock": 38,
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/thumbnail.webp"
+  },
+  {
+    "id": 84,
+    "title": "Gigabyte Aorus Men Tshirt",
+    "brand": "Gigabyte",
+    "category": "mens-shirts",
+    "categoryLabel": "Camisas masculinas",
+    "priceBRL": 136.9,
+    "rating": 3.18,
+    "stock": 90,
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "tags": [
+      "clothing",
+      "men's t-shirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp"
+  },
+  {
+    "id": 85,
+    "title": "Man Plaid Shirt",
+    "brand": "Classic Wear",
+    "category": "mens-shirts",
+    "categoryLabel": "Camisas masculinas",
+    "priceBRL": 191.9,
+    "rating": 3.46,
+    "stock": 82,
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp"
+  },
+  {
+    "id": 86,
+    "title": "Man Short Sleeve Shirt",
+    "brand": "Casual Comfort",
+    "category": "mens-shirts",
+    "categoryLabel": "Camisas masculinas",
+    "priceBRL": 109.9,
+    "rating": 2.9,
+    "stock": 2,
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp"
+  },
+  {
+    "id": 87,
+    "title": "Men Check Shirt",
+    "brand": "Urban Chic",
+    "category": "mens-shirts",
+    "categoryLabel": "Camisas masculinas",
+    "priceBRL": 153.9,
+    "rating": 2.72,
+    "stock": 95,
+    "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp"
+  },
+  {
+    "id": 88,
+    "title": "Nike Air Jordan 1 Red And Black",
+    "brand": "Nike",
+    "category": "mens-shoes",
+    "categoryLabel": "Calçados masculinos",
+    "priceBRL": 824.9,
+    "rating": 4.77,
+    "stock": 7,
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/thumbnail.webp"
+  },
+  {
+    "id": 89,
+    "title": "Nike Baseball Cleats",
+    "brand": "Nike",
+    "category": "mens-shoes",
+    "categoryLabel": "Calçados masculinos",
+    "priceBRL": 439.9,
+    "rating": 3.88,
+    "stock": 12,
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "tags": [
+      "footwear",
+      "sports cleats"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/thumbnail.webp"
+  },
+  {
+    "id": 90,
+    "title": "Puma Future Rider Trainers",
+    "brand": "Puma",
+    "category": "mens-shoes",
+    "categoryLabel": "Calçados masculinos",
+    "priceBRL": 494.9,
+    "rating": 4.9,
+    "stock": 90,
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/thumbnail.webp"
+  },
+  {
+    "id": 91,
+    "title": "Sports Sneakers Off White & Red",
+    "brand": "Off White",
+    "category": "mens-shoes",
+    "categoryLabel": "Calçados masculinos",
+    "priceBRL": 659.9,
+    "rating": 4.77,
+    "stock": 17,
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/thumbnail.webp"
+  },
+  {
+    "id": 92,
+    "title": "Sports Sneakers Off White Red",
+    "brand": "Off White",
+    "category": "mens-shoes",
+    "categoryLabel": "Calçados masculinos",
+    "priceBRL": 604.9,
+    "rating": 4.69,
+    "stock": 62,
+    "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/thumbnail.webp"
+  },
+  {
+    "id": 93,
+    "title": "Brown Leather Belt Watch",
+    "brand": "Fashion Timepieces",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 494.9,
+    "rating": 4.19,
+    "stock": 32,
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "tags": [
+      "watches",
+      "leather watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
+  },
+  {
+    "id": 94,
+    "title": "Longines Master Collection",
+    "brand": "Longines",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 8249.9,
+    "rating": 3.87,
+    "stock": 100,
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
+  },
+  {
+    "id": 95,
+    "title": "Rolex Cellini Date Black Dial",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 49499.9,
+    "rating": 4.97,
+    "stock": 40,
+    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
+  },
+  {
+    "id": 96,
+    "title": "Rolex Cellini Moonphase",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 71499.9,
+    "rating": 2.58,
+    "stock": 36,
+    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
+  },
+  {
+    "id": 97,
+    "title": "Rolex Datejust",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 60499.9,
+    "rating": 3.66,
+    "stock": 86,
+    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
+  },
+  {
+    "id": 98,
+    "title": "Rolex Submariner Watch",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "categoryLabel": "Relógios masculinos",
+    "priceBRL": 76999.9,
+    "rating": 2.69,
+    "stock": 55,
+    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
+  },
+  {
+    "id": 99,
+    "title": "Amazon Echo Plus",
+    "brand": "Amazon",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 549.9,
+    "rating": 4.99,
+    "stock": 61,
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp"
+  },
+  {
+    "id": 100,
+    "title": "Apple Airpods",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 714.9,
+    "rating": 4.15,
+    "stock": 67,
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp"
+  },
+  {
+    "id": 101,
+    "title": "Apple AirPods Max Silver",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 3024.9,
+    "rating": 3.47,
+    "stock": 59,
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "tags": [
+      "electronics",
+      "over-ear headphones"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp"
+  },
+  {
+    "id": 102,
+    "title": "Apple Airpower Wireless Charger",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 439.9,
+    "rating": 3.68,
+    "stock": 1,
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "tags": [
+      "electronics",
+      "wireless chargers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/thumbnail.webp"
+  },
+  {
+    "id": 103,
+    "title": "Apple HomePod Mini Cosmic Grey",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 549.9,
+    "rating": 4.62,
+    "stock": 27,
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp"
+  },
+  {
+    "id": 104,
+    "title": "Apple iPhone Charger",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 109.9,
+    "rating": 4.15,
+    "stock": 31,
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "tags": [
+      "electronics",
+      "chargers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp"
+  },
+  {
+    "id": 105,
+    "title": "Apple MagSafe Battery Pack",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 549.9,
+    "rating": 3.62,
+    "stock": 1,
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "tags": [
+      "electronics",
+      "power banks"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp"
+  },
+  {
+    "id": 106,
+    "title": "Apple Watch Series 4 Gold",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 1924.9,
+    "rating": 2.74,
+    "stock": 33,
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "tags": [
+      "electronics",
+      "smartwatches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp"
+  },
+  {
+    "id": 107,
+    "title": "Beats Flex Wireless Earphones",
+    "brand": "Beats",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 274.9,
+    "rating": 4.24,
+    "stock": 50,
+    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp"
+  },
+  {
+    "id": 108,
+    "title": "iPhone 12 Silicone Case with MagSafe Plum",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 164.9,
+    "rating": 3.62,
+    "stock": 69,
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "tags": [
+      "electronics",
+      "phone accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp"
+  },
+  {
+    "id": 109,
+    "title": "Monopod",
+    "brand": "TechGear",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 109.9,
+    "rating": 4.43,
+    "stock": 48,
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/thumbnail.webp"
+  },
+  {
+    "id": 110,
+    "title": "Selfie Lamp with iPhone",
+    "brand": "GadgetMaster",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 81.9,
+    "rating": 3.55,
+    "stock": 58,
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/thumbnail.webp"
+  },
+  {
+    "id": 111,
+    "title": "Selfie Stick Monopod",
+    "brand": "SnapTech",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 70.9,
+    "rating": 3.88,
+    "stock": 11,
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp"
+  },
+  {
+    "id": 112,
+    "title": "TV Studio Camera Pedestal",
+    "brand": "ProVision",
+    "category": "mobile-accessories",
+    "categoryLabel": "Acessórios para celular",
+    "priceBRL": 2749.9,
+    "rating": 2.78,
+    "stock": 15,
+    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp"
+  },
+  {
+    "id": 118,
+    "title": "Attitude Super Leaves Hand Soap",
+    "brand": "Attitude",
+    "category": "skin-care",
+    "categoryLabel": "Cuidados com a pele",
+    "priceBRL": 48.9,
+    "rating": 3.19,
+    "stock": 94,
+    "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+    "tags": [
+      "personal care",
+      "hand soap"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/thumbnail.webp"
+  },
+  {
+    "id": 119,
+    "title": "Olay Ultra Moisture Shea Butter Body Wash",
+    "brand": "Olay",
+    "category": "skin-care",
+    "categoryLabel": "Cuidados com a pele",
+    "priceBRL": 70.9,
+    "rating": 4.51,
+    "stock": 34,
+    "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+    "tags": [
+      "personal care",
+      "body wash"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/thumbnail.webp"
+  },
+  {
+    "id": 120,
+    "title": "Vaseline Men Body and Face Lotion",
+    "brand": "Vaseline",
+    "category": "skin-care",
+    "categoryLabel": "Cuidados com a pele",
+    "priceBRL": 54.9,
+    "rating": 3.16,
+    "stock": 95,
+    "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+    "tags": [
+      "personal care",
+      "body lotion"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp"
+  },
+  {
+    "id": 121,
+    "title": "iPhone 5s",
+    "brand": "Apple",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1099.9,
+    "rating": 2.83,
+    "stock": 25,
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
+  },
+  {
+    "id": 122,
+    "title": "iPhone 6",
+    "brand": "Apple",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1649.9,
+    "rating": 3.41,
+    "stock": 60,
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
+  },
+  {
+    "id": 123,
+    "title": "iPhone 13 Pro",
+    "brand": "Apple",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 6049.9,
+    "rating": 4.12,
+    "stock": 56,
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
+  },
+  {
+    "id": 124,
+    "title": "iPhone X",
+    "brand": "Apple",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 4949.9,
+    "rating": 2.51,
+    "stock": 37,
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
+  },
+  {
+    "id": 125,
+    "title": "Oppo A57",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1374.9,
+    "rating": 3.94,
+    "stock": 19,
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
+  },
+  {
+    "id": 126,
+    "title": "Oppo F19 Pro Plus",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 2199.9,
+    "rating": 3.51,
+    "stock": 78,
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
+  },
+  {
+    "id": 127,
+    "title": "Oppo K1",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1649.9,
+    "rating": 4.25,
+    "stock": 55,
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
+  },
+  {
+    "id": 128,
+    "title": "Realme C35",
+    "brand": "Realme",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 824.9,
+    "rating": 4.2,
+    "stock": 48,
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
+  },
+  {
+    "id": 129,
+    "title": "Realme X",
+    "brand": "Realme",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1649.9,
+    "rating": 3.7,
+    "stock": 12,
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
+  },
+  {
+    "id": 130,
+    "title": "Realme XT",
+    "brand": "Realme",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1924.9,
+    "rating": 4.58,
+    "stock": 80,
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
+  },
+  {
+    "id": 131,
+    "title": "Samsung Galaxy S7",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1649.9,
+    "rating": 3.3,
+    "stock": 67,
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
+  },
+  {
+    "id": 132,
+    "title": "Samsung Galaxy S8",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 2749.9,
+    "rating": 4.4,
+    "stock": 0,
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
+  },
+  {
+    "id": 133,
+    "title": "Samsung Galaxy S10",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 3849.9,
+    "rating": 3.06,
+    "stock": 19,
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
+  },
+  {
+    "id": 134,
+    "title": "Vivo S1",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1374.9,
+    "rating": 3.5,
+    "stock": 50,
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
+  },
+  {
+    "id": 135,
+    "title": "Vivo V9",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 1649.9,
+    "rating": 3.6,
+    "stock": 82,
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
+  },
+  {
+    "id": 136,
+    "title": "Vivo X21",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "categoryLabel": "Smartphones",
+    "priceBRL": 2749.9,
+    "rating": 4.26,
+    "stock": 7,
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
+  },
+  {
+    "id": 137,
+    "title": "American Football",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 109.9,
+    "rating": 4.91,
+    "stock": 53,
+    "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+    "tags": [
+      "sports equipment",
+      "american football"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/thumbnail.webp"
+  },
+  {
+    "id": 138,
+    "title": "Baseball Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 48.9,
+    "rating": 2.57,
+    "stock": 100,
+    "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/thumbnail.webp"
+  },
+  {
+    "id": 139,
+    "title": "Baseball Glove",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 136.9,
+    "rating": 3.96,
+    "stock": 22,
+    "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/thumbnail.webp"
+  },
+  {
+    "id": 140,
+    "title": "Basketball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 81.9,
+    "rating": 4.66,
+    "stock": 75,
+    "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/thumbnail.webp"
+  },
+  {
+    "id": 141,
+    "title": "Basketball Rim",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 219.9,
+    "rating": 4.6,
+    "stock": 43,
+    "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/thumbnail.webp"
+  },
+  {
+    "id": 142,
+    "title": "Cricket Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 70.9,
+    "rating": 3.53,
+    "stock": 30,
+    "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/thumbnail.webp"
+  },
+  {
+    "id": 143,
+    "title": "Cricket Bat",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 164.9,
+    "rating": 3.17,
+    "stock": 98,
+    "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/thumbnail.webp"
+  },
+  {
+    "id": 144,
+    "title": "Cricket Helmet",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 246.9,
+    "rating": 4.69,
+    "stock": 10,
+    "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp"
+  },
+  {
+    "id": 145,
+    "title": "Cricket Wicket",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 164.9,
+    "rating": 4.73,
+    "stock": 25,
+    "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/thumbnail.webp"
+  },
+  {
+    "id": 146,
+    "title": "Feather Shuttlecock",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 32.9,
+    "rating": 2.85,
+    "stock": 95,
+    "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+    "tags": [
+      "sports equipment",
+      "badminton"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/thumbnail.webp"
+  },
+  {
+    "id": 147,
+    "title": "Football",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 98.9,
+    "rating": 3.28,
+    "stock": 96,
+    "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+    "tags": [
+      "sports equipment",
+      "football"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/football/thumbnail.webp"
+  },
+  {
+    "id": 148,
+    "title": "Golf Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 54.9,
+    "rating": 4.3,
+    "stock": 84,
+    "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/thumbnail.webp"
+  },
+  {
+    "id": 149,
+    "title": "Iron Golf",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 274.9,
+    "rating": 4.41,
+    "stock": 90,
+    "description": "The Iron Golf is a type of golf club designed for various golf shots. It features a solid metal head and is used for approach shots, chipping, and other golfing techniques.",
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/thumbnail.webp"
+  },
+  {
+    "id": 150,
+    "title": "Metal Baseball Bat",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 164.9,
+    "rating": 4.66,
+    "stock": 16,
+    "description": "The Metal Baseball Bat is a durable and lightweight baseball bat made from metal alloys. It is commonly used in baseball games for hitting and batting practice.",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/thumbnail.webp"
+  },
+  {
+    "id": 151,
+    "title": "Tennis Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 37.9,
+    "rating": 4.06,
+    "stock": 28,
+    "description": "The Tennis Ball is a standard ball used in the sport of tennis. It is designed for bouncing and hitting with tennis rackets during matches or practice sessions.",
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/thumbnail.webp"
+  },
+  {
+    "id": 152,
+    "title": "Tennis Racket",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 274.9,
+    "rating": 4.03,
+    "stock": 6,
+    "description": "The Tennis Racket is an essential piece of equipment used in the sport of tennis. It features a frame with strings and a grip, allowing players to hit the tennis ball.",
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/thumbnail.webp"
+  },
+  {
+    "id": 153,
+    "title": "Volleyball",
+    "brand": null,
+    "category": "sports-accessories",
+    "categoryLabel": "Esporte",
+    "priceBRL": 65.9,
+    "rating": 3.84,
+    "stock": 0,
+    "description": "The Volleyball is a standard ball used in the sport of volleyball. It is designed for passing, setting, and spiking over the net during volleyball matches.",
+    "tags": [
+      "sports equipment",
+      "volleyball"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/thumbnail.webp"
+  },
+  {
+    "id": 154,
+    "title": "Black Sun Glasses",
+    "brand": "Fashion Shades",
+    "category": "sunglasses",
+    "categoryLabel": "Óculos de sol",
+    "priceBRL": 164.9,
+    "rating": 4.41,
+    "stock": 60,
+    "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/thumbnail.webp"
+  },
+  {
+    "id": 155,
+    "title": "Classic Sun Glasses",
+    "brand": "Fashion Shades",
+    "category": "sunglasses",
+    "categoryLabel": "Óculos de sol",
+    "priceBRL": 136.9,
+    "rating": 3.86,
+    "stock": 1,
+    "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/thumbnail.webp"
+  },
+  {
+    "id": 156,
+    "title": "Green and Black Glasses",
+    "brand": "Fashion Shades",
+    "category": "sunglasses",
+    "categoryLabel": "Óculos de sol",
+    "priceBRL": 191.9,
+    "rating": 4.55,
+    "stock": 24,
+    "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/thumbnail.webp"
+  },
+  {
+    "id": 157,
+    "title": "Party Glasses",
+    "brand": "Fashion Fun",
+    "category": "sunglasses",
+    "categoryLabel": "Óculos de sol",
+    "priceBRL": 109.9,
+    "rating": 2.79,
+    "stock": 86,
+    "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+    "tags": [
+      "eyewear",
+      "party glasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/thumbnail.webp"
+  },
+  {
+    "id": 158,
+    "title": "Sunglasses",
+    "brand": "Fashion Shades",
+    "category": "sunglasses",
+    "categoryLabel": "Óculos de sol",
+    "priceBRL": 125.9,
+    "rating": 3.02,
+    "stock": 27,
+    "description": "The Sunglasses offer a classic and simple design with a focus on functionality. These sunglasses provide essential UV protection while maintaining a timeless look.",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/thumbnail.webp"
+  },
+  {
+    "id": 159,
+    "title": "iPad Mini 2021 Starlight",
+    "brand": "Apple",
+    "category": "tablets",
+    "categoryLabel": "Tablets",
+    "priceBRL": 2749.9,
+    "rating": 3.18,
+    "stock": 47,
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp"
+  },
+  {
+    "id": 160,
+    "title": "Samsung Galaxy Tab S8 Plus Grey",
+    "brand": "Samsung",
+    "category": "tablets",
+    "categoryLabel": "Tablets",
+    "priceBRL": 3299.9,
+    "rating": 4.68,
+    "stock": 62,
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp"
+  },
+  {
+    "id": 161,
+    "title": "Samsung Galaxy Tab White",
+    "brand": "Samsung",
+    "category": "tablets",
+    "categoryLabel": "Tablets",
+    "priceBRL": 1924.9,
+    "rating": 3.72,
+    "stock": 92,
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp"
+  },
+  {
+    "id": 162,
+    "title": "Blue Frock",
+    "brand": null,
+    "category": "tops",
+    "categoryLabel": "Moda feminina",
+    "priceBRL": 164.9,
+    "rating": 4.17,
+    "stock": 52,
+    "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp"
+  },
+  {
+    "id": 163,
+    "title": "Girl Summer Dress",
+    "brand": null,
+    "category": "tops",
+    "categoryLabel": "Moda feminina",
+    "priceBRL": 109.9,
+    "rating": 4.77,
+    "stock": 43,
+    "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+    "tags": [
+      "clothing",
+      "girls' dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/thumbnail.webp"
+  },
+  {
+    "id": 164,
+    "title": "Gray Dress",
+    "brand": null,
+    "category": "tops",
+    "categoryLabel": "Moda feminina",
+    "priceBRL": 191.9,
+    "rating": 2.72,
+    "stock": 55,
+    "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tops/gray-dress/thumbnail.webp"
+  },
+  {
+    "id": 165,
+    "title": "Short Frock",
+    "brand": null,
+    "category": "tops",
+    "categoryLabel": "Moda feminina",
+    "priceBRL": 136.9,
+    "rating": 3.23,
+    "stock": 22,
+    "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tops/short-frock/thumbnail.webp"
+  },
+  {
+    "id": 166,
+    "title": "Tartan Dress",
+    "brand": null,
+    "category": "tops",
+    "categoryLabel": "Moda feminina",
+    "priceBRL": 219.9,
+    "rating": 4.05,
+    "stock": 73,
+    "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/thumbnail.webp"
+  },
+  {
+    "id": 172,
+    "title": "Blue Women's Handbag",
+    "brand": "Fashionista",
+    "category": "womens-bags",
+    "categoryLabel": "Bolsas",
+    "priceBRL": 274.9,
+    "rating": 2.92,
+    "stock": 76,
+    "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/thumbnail.webp"
+  },
+  {
+    "id": 173,
+    "title": "Heshe Women's Leather Bag",
+    "brand": "Heshe",
+    "category": "womens-bags",
+    "categoryLabel": "Bolsas",
+    "priceBRL": 714.9,
+    "rating": 4.92,
+    "stock": 99,
+    "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+    "tags": [
+      "fashion accessories",
+      "leather bags"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/thumbnail.webp"
+  },
+  {
+    "id": 174,
+    "title": "Prada Women Bag",
+    "brand": "Prada",
+    "category": "womens-bags",
+    "categoryLabel": "Bolsas",
+    "priceBRL": 3299.9,
+    "rating": 2.71,
+    "stock": 75,
+    "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
+    "tags": [
+      "fashion accessories",
+      "designer bags"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/thumbnail.webp"
+  },
+  {
+    "id": 175,
+    "title": "White Faux Leather Backpack",
+    "brand": "Urban Chic",
+    "category": "womens-bags",
+    "categoryLabel": "Bolsas",
+    "priceBRL": 219.9,
+    "rating": 3.36,
+    "stock": 39,
+    "description": "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. With a sleek white design and ample storage space, it's perfect for both casual and on-the-go styles.",
+    "tags": [
+      "fashion accessories",
+      "backpacks"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/thumbnail.webp"
+  },
+  {
+    "id": 176,
+    "title": "Women Handbag Black",
+    "brand": "Elegance Collection",
+    "category": "womens-bags",
+    "categoryLabel": "Bolsas",
+    "priceBRL": 329.9,
+    "rating": 2.89,
+    "stock": 11,
+    "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/thumbnail.webp"
+  },
+  {
+    "id": 177,
+    "title": "Black Women's Gown",
+    "brand": null,
+    "category": "womens-dresses",
+    "categoryLabel": "Vestidos",
+    "priceBRL": 714.9,
+    "rating": 3.64,
+    "stock": 25,
+    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+    "tags": [
+      "clothing",
+      "gowns"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp"
+  },
+  {
+    "id": 178,
+    "title": "Corset Leather With Skirt",
+    "brand": null,
+    "category": "womens-dresses",
+    "categoryLabel": "Vestidos",
+    "priceBRL": 494.9,
+    "rating": 3.05,
+    "stock": 30,
+    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/thumbnail.webp"
+  },
+  {
+    "id": 179,
+    "title": "Corset With Black Skirt",
+    "brand": null,
+    "category": "womens-dresses",
+    "categoryLabel": "Vestidos",
+    "priceBRL": 439.9,
+    "rating": 4.52,
+    "stock": 33,
+    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/thumbnail.webp"
+  },
+  {
+    "id": 180,
+    "title": "Dress Pea",
+    "brand": null,
+    "category": "womens-dresses",
+    "categoryLabel": "Vestidos",
+    "priceBRL": 274.9,
+    "rating": 4.88,
+    "stock": 6,
+    "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/thumbnail.webp"
+  },
+  {
+    "id": 181,
+    "title": "Marni Red & Black Suit",
+    "brand": null,
+    "category": "womens-dresses",
+    "categoryLabel": "Vestidos",
+    "priceBRL": 989.9,
+    "rating": 4.48,
+    "stock": 62,
+    "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
+    "tags": [
+      "clothing",
+      "suits"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/thumbnail.webp"
+  },
+  {
+    "id": 182,
+    "title": "Green Crystal Earring",
+    "brand": null,
+    "category": "womens-jewellery",
+    "categoryLabel": "Joias",
+    "priceBRL": 164.9,
+    "rating": 3.96,
+    "stock": 54,
+    "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/thumbnail.webp"
+  },
+  {
+    "id": 183,
+    "title": "Green Oval Earring",
+    "brand": null,
+    "category": "womens-jewellery",
+    "categoryLabel": "Joias",
+    "priceBRL": 136.9,
+    "rating": 3.57,
+    "stock": 73,
+    "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp"
+  },
+  {
+    "id": 184,
+    "title": "Tropical Earring",
+    "brand": null,
+    "category": "womens-jewellery",
+    "categoryLabel": "Joias",
+    "priceBRL": 109.9,
+    "rating": 4.4,
+    "stock": 1,
+    "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/thumbnail.webp"
+  },
+  {
+    "id": 185,
+    "title": "Black & Brown Slipper",
+    "brand": "Comfort Trends",
+    "category": "womens-shoes",
+    "categoryLabel": "Calçados femininos",
+    "priceBRL": 109.9,
+    "rating": 2.53,
+    "stock": 3,
+    "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
+    "tags": [
+      "footwear",
+      "slippers"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp"
+  },
+  {
+    "id": 186,
+    "title": "Calvin Klein Heel Shoes",
+    "brand": "Calvin Klein",
+    "category": "womens-shoes",
+    "categoryLabel": "Calçados femininos",
+    "priceBRL": 439.9,
+    "rating": 4.92,
+    "stock": 93,
+    "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
+    "tags": [
+      "footwear",
+      "heel shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/thumbnail.webp"
+  },
+  {
+    "id": 187,
+    "title": "Golden Shoes Woman",
+    "brand": "Fashion Diva",
+    "category": "womens-shoes",
+    "categoryLabel": "Calçados femininos",
+    "priceBRL": 274.9,
+    "rating": 3.26,
+    "stock": 88,
+    "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/thumbnail.webp"
+  },
+  {
+    "id": 188,
+    "title": "Pampi Shoes",
+    "brand": "Pampi",
+    "category": "womens-shoes",
+    "categoryLabel": "Calçados femininos",
+    "priceBRL": 164.9,
+    "rating": 3.05,
+    "stock": 49,
+    "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/thumbnail.webp"
+  },
+  {
+    "id": 189,
+    "title": "Red Shoes",
+    "brand": "Fashion Express",
+    "category": "womens-shoes",
+    "categoryLabel": "Calçados femininos",
+    "priceBRL": 191.9,
+    "rating": 3.25,
+    "stock": 7,
+    "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp"
+  },
+  {
+    "id": 190,
+    "title": "IWC Ingenieur Automatic Steel",
+    "brand": "IWC",
+    "category": "womens-watches",
+    "categoryLabel": "Relógios femininos",
+    "priceBRL": 27499.9,
+    "rating": 2.93,
+    "stock": 90,
+    "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
+  },
+  {
+    "id": 191,
+    "title": "Rolex Cellini Moonphase",
+    "brand": "Rolex",
+    "category": "womens-watches",
+    "categoryLabel": "Relógios femininos",
+    "priceBRL": 87999.9,
+    "rating": 3.83,
+    "stock": 52,
+    "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
+  },
+  {
+    "id": 192,
+    "title": "Rolex Datejust Women",
+    "brand": "Rolex",
+    "category": "womens-watches",
+    "categoryLabel": "Relógios femininos",
+    "priceBRL": 60499.9,
+    "rating": 2.86,
+    "stock": 4,
+    "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
+    "tags": [
+      "watches",
+      "luxury watches",
+      "women's watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
+  },
+  {
+    "id": 193,
+    "title": "Watch Gold for Women",
+    "brand": "Fashion Gold",
+    "category": "womens-watches",
+    "categoryLabel": "Relógios femininos",
+    "priceBRL": 4399.9,
+    "rating": 4.24,
+    "stock": 0,
+    "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
+  },
+  {
+    "id": 194,
+    "title": "Women's Wrist Watch",
+    "brand": "Fashion Co.",
+    "category": "womens-watches",
+    "categoryLabel": "Relógios femininos",
+    "priceBRL": 714.9,
+    "rating": 3.52,
+    "stock": 12,
+    "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
+    "image": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
+  }
+]
