@@ -4,7 +4,7 @@ import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport } from "ai";
 import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { formatBRL, type ProductSummary } from "@/lib/catalog";
-import type { ShopUIMessage } from "@/lib/tools";
+import type { ChatMetadata, ShopUIMessage } from "@/lib/tools";
 import { ComparisonTable, ProductDetail, ProductResults, ToolPending } from "./generated-ui";
 import { ShopContext, type CartItem } from "./shop-context";
 
@@ -41,6 +41,33 @@ function MessagePart({ part }: { part: ShopUIMessage["parts"][number] }) {
     default:
       return null;
   }
+}
+
+const usd = (value: number) => `US$ ${value.toLocaleString("pt-BR", { minimumFractionDigits: 5, maximumFractionDigits: 5 })}`;
+
+/** How an answer was made: the production side of the store, visible to the visitor. */
+function AnswerInfo({ info }: { info: ChatMetadata }) {
+  const items = [
+    info.tier && `${info.tier === "fast" ? "Modelo rápido" : "Modelo forte"} (${info.routeReason})`,
+    info.models?.length ? info.models.join(", ") : null,
+    info.costUSD != null ? `${usd(info.costUSD)} pelo preço pago` : null,
+    info.ms != null ? `${(info.ms / 1000).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} s` : null,
+  ].filter(Boolean);
+  if (!items.length) return null;
+  return (
+    <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
+      {items.map((item, i) => (
+        <span key={i}>{i > 0 && <span aria-hidden="true" className="mr-2">·</span>}{item}</span>
+      ))}
+      {info.maskedData?.length ? <span className="text-warn">· dados pessoais ocultados antes do modelo</span> : null}
+      {info.injectionSuspected ? <span className="text-warn">· tentativa de mudar as regras registrada</span> : null}
+      {info.traceUrl && (
+        <a href={info.traceUrl} target="_blank" rel="noreferrer" className="font-medium text-accent underline underline-offset-2">
+          Ver o trace
+        </a>
+      )}
+    </p>
+  );
 }
 
 function CartButton({ cart, open, onToggle }: { cart: CartItem[]; open: boolean; onToggle: () => void }) {
@@ -175,6 +202,7 @@ export function Shop() {
                 {message.parts.map((part, i) => (
                   <MessagePart key={i} part={part} />
                 ))}
+                {message.metadata && <AnswerInfo info={message.metadata} />}
               </div>
             ),
           )}

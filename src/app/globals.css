@@ -14,6 +14,7 @@
   --accent-soft: #dcebe4;
   --price: #8a4b08;
   --danger: #a3302a;
+  --warn: #8a5a00;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
     --accent-soft: #1f3a2f;
     --price: #f2b866;
     --danger: #f08a82;
+    --warn: #f2c46b;
     color-scheme: dark;
   }
 }
@@ -45,6 +47,7 @@
   --color-accent-soft: var(--accent-soft);
   --color-price: var(--price);
   --color-danger: var(--danger);
+  --color-warn: var(--warn);
   --font-sans: var(--font-body);
   --font-display: var(--font-display);
 }

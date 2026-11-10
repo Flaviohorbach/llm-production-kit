@@ -1,5 +1,5 @@
 {
-  "name": "ai-shopping-ui",
+  "name": "llm-production-kit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,12 +12,18 @@
     "catalog": "node scripts/build-catalog.mjs"
   },
   "dependencies": {
-    "@ai-sdk/google": "^4.0.107",
-    "@ai-sdk/react": "^4.0.159",
-    "ai": "^7.0.155",
-    "next": "16.4.3",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "@ai-sdk/google": "^4.0.114",
+    "@ai-sdk/react": "^4.0.170",
+    "@langfuse/client": "^6.1.1",
+    "@langfuse/otel": "^6.1.1",
+    "@langfuse/tracing": "^6.1.1",
+    "@langfuse/vercel-ai-sdk": "^6.1.1",
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/sdk-trace-node": "^2.12.1",
+    "ai": "^7.0.166",
+    "next": "^16.4.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "zod": "^4.6.7"
   },
   "devDependencies": {
@@ -26,8 +32,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.4.3",
+    "eslint-config-next": "^16.4.5",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^5.0.5"
   }

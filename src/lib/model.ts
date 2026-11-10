@@ -2,12 +2,18 @@ import { createGoogle } from "@ai-sdk/google";
 import { APICallError, wrapLanguageModel, type LanguageModel, type LanguageModelMiddleware } from "ai";
 
 /**
- * Model chain, cheapest first. gemini-3.1-flash-lite held up best in the
- * product-lab benchmark (module 2): same grounding as the bigger model at 1/8
- * of the cost. The others are backups; each model has its own free-tier quota,
- * so a longer chain also means more requests per day before the demo stops.
+ * Two tiers, each a chain of models for the same job. The router picks the
+ * tier; within a tier, the next model takes over when one is down or out of
+ * quota (each model has its own free-tier quota).
+ * - fast: cheap models, for most messages. gemini-3.1-flash-lite held up best
+ *   in the product-lab benchmark (module 2).
+ * - strong: for comparisons and long or complex requests.
  */
-export const MODEL_CHAIN = ["gemini-3.1-flash-lite", "gemini-3.8-flash", "gemini-3.6-flash"] as const;
+export const MODEL_TIERS = {
+  fast: ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite"],
+  strong: ["gemini-3.8-flash", "gemini-3.6-flash"],
+} as const;
+export type Tier = keyof typeof MODEL_TIERS;
 
 /** How long a model gets to start answering before the call moves to the next one. */
 export const FIRST_BYTE_TIMEOUT_MS = 15_000;
@@ -135,8 +141,13 @@ export function fallbackMiddleware(backups: WrappableModel[], timeoutMs = FIRST_
   };
 }
 
-export function createShopModel(apiKey = process.env.GEMINI_API_KEY): LanguageModel {
+export function createChainModel(ids: readonly string[], apiKey = process.env.GEMINI_API_KEY): LanguageModel {
   const google = createGoogle({ apiKey });
-  const [primary, ...backups] = MODEL_CHAIN.map((id) => google(id));
+  const [primary, ...backups] = ids.map((id) => google(id));
   return wrapLanguageModel({ model: primary!, middleware: fallbackMiddleware(backups) });
+}
+
+/** One model per tier, created once and reused across requests. */
+export function createTierModels(apiKey = process.env.GEMINI_API_KEY): Record<Tier, LanguageModel> {
+  return { fast: createChainModel(MODEL_TIERS.fast, apiKey), strong: createChainModel(MODEL_TIERS.strong, apiKey) };
 }
