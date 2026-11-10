@@ -7,6 +7,8 @@ name: Quality gate
 on:
   push:
     branches: [main]
+    # Documentation cannot change the app; skipping it saves the free model quota.
+    paths-ignore: ["**.md", "docs/**"]
   pull_request:
   workflow_dispatch:
 

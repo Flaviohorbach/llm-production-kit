@@ -26,6 +26,10 @@ The evaluation wrote its results only at the end, so the stopped run left nothin
 
 The project inherited no `"type": "module"`, and the eval script used top-level `await`. **Caught by:** the first run. **Fix:** the script is `.mts`.
 
+### 7. Optional tracing that could break the build
+
+Tracing was meant to be optional, but only missing keys turned it off. On Vercel, the Langfuse URL had been pasted with its quotes, the span processor threw on the invalid URL while Next.js collected the route's configuration, and the whole build failed. **Caught by:** the first deploy from CI. **Fix:** invalid keys or URL turn tracing off with a warning; the store keeps working untraced.
+
 ## What needed a human
 
 - Choosing a new repository and Langfuse.
