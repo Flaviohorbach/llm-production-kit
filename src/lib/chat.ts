@@ -65,7 +65,10 @@ function toolPrices(steps: StepResult<ToolSet>[]): number[] {
   const visit = (value: unknown) => {
     if (Array.isArray(value)) value.forEach(visit);
     else if (value && typeof value === "object") {
-      for (const [key, v] of Object.entries(value)) (key === "priceBRL" && typeof v === "number" ? prices.push(v) : visit(v));
+      for (const [key, v] of Object.entries(value)) {
+        if (key === "priceBRL" && typeof v === "number") prices.push(v);
+        else visit(v);
+      }
     }
   };
   for (const step of steps) for (const result of step.toolResults) visit(result.output);
